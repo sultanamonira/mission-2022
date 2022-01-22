@@ -1,0 +1,51 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;600;700&family=Yeseva+One&display=swap');
+
+/* font-family: 'Lobster', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Yeseva One', cursive; */
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-header{
+    display: flex;
+    margin: 0px 140px;
+}
+
+.left-section{
+    margin-top: 100px;
+}
+
+.left-section, .right-section{
+    width: 50%
+}
+.right-section img{
+    width: 426px;
+}
+
+.left-section{
+    padding-right: 100px;
+}
+
+.top-header h1{
+    color: #333333;
+    font-size: 60px;
+    font-family: 'Yeseva One', cursive; 
+    border-left: 4px solid #FF5959;
+    padding-left: 20px;
+}
+
+p.bottom-h1{
+    color:#3E3E3E;
+    font-size: 18px;
+}
+
+.header-button{
+    background-color: #FF5959;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+}
