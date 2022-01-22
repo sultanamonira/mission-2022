@@ -35,6 +35,11 @@ p{
     font-family: 'Yeseva One', cursive; 
     border-left: 4px solid #FF5959;
     padding-left: 20px;
+    line-height: 80px;
+}
+
+.top-header h1 span{
+    color: #FFAD5A;
 }
 
 p.bottom-h1{
@@ -48,4 +53,56 @@ p.bottom-h1{
     padding: 15px 25px;
     border: none;
     border-radius: 5px;
+}
+
+/* mission-vission-goal section style */
+.mission-vision-goal{
+    margin: 0px 140px;
+}
+.mission-vision-goal h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.mission-vision-goal h2 span{
+    color: #FFAD5A;
+}
+
+.total-three-box{
+    display: flex;
+}
+
+.single-box{
+    margin-right: 30px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.single-box img{
+    height: 126px;
+    width: 126px;
+}
+
+.single-box h4{
+    font-size: 24px;
+}
+
+.single-box p{
+    color: #424242;
+}
+
+.mission{
+    background-color: #4f9da636;
+}
+
+.vision{
+    background-color: #ff595918;
+}
+
+.goal{
+    background-color: #fff4d68e;
 }
