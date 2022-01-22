@@ -5,6 +5,10 @@
 font-family: 'Poppins', sans-serif;
 font-family: 'Yeseva One', cursive; */
 
+body{
+    margin: 0px;
+}
+
 p{
     font-family: 'Poppins', sans-serif;
 }
@@ -105,4 +109,69 @@ p.bottom-h1{
 
 .goal{
     background-color: #fff4d68e;
+}
+
+/* Develop Section Styles */
+.develop-section{
+    display: flex;
+    padding: 80px 140px;
+    align-items: center;
+    background-image: url(images/shapes/shape-1.png);
+    background-size: 227px;
+    background-repeat: no-repeat;
+    background-position: 50px 50%;
+}
+
+.left-develop{
+    
+}
+
+.develop-section .left-develop img{
+    height: 400px;
+    width: 400px;
+    margin-right: 100px;
+}
+
+.develop-section h2, .global-community h2{
+    color: #333333;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+/* Community section style */
+.global-community{
+    display: flex;
+    padding: 60px 140px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: 97% 100%;
+}
+
+.right-community img{
+    height: 400px;
+    width: 400px;
+    margin-left: 200px;
+}
+
+footer{
+    background-color: #0B0D17;
+}
+
+footer h2{
+    color: white;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    padding-top: 30px;
+}
+
+footer h2 span{
+    color: #FF5959;
+}
+
+footer p{
+    color: #D9DBE1;
+    text-align: center;
+    padding-bottom: 30px;
 }
